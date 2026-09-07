@@ -1,0 +1,345 @@
+{
+  "version": "business-1.0.2-20260907",
+  "stocks": [
+    {
+      "id": "stock:SZ300308",
+      "name": "中际旭创",
+      "aliases": [
+        "中际旭创"
+      ]
+    },
+    {
+      "id": "stock:SZ300502",
+      "name": "新易盛",
+      "aliases": [
+        "新易盛"
+      ]
+    },
+    {
+      "id": "stock:SZ300394",
+      "name": "天孚通信",
+      "aliases": [
+        "天孚通信"
+      ]
+    },
+    {
+      "id": "stock:SH688008",
+      "name": "澜起科技",
+      "aliases": [
+        "澜起科技"
+      ]
+    },
+    {
+      "id": "stock:SH603986",
+      "name": "兆易创新",
+      "aliases": [
+        "兆易创新"
+      ]
+    },
+    {
+      "id": "stock:SZ002371",
+      "name": "北方华创",
+      "aliases": [
+        "北方华创"
+      ]
+    },
+    {
+      "id": "stock:SH600584",
+      "name": "长电科技",
+      "aliases": [
+        "长电科技"
+      ]
+    },
+    {
+      "id": "stock:SZ300661",
+      "name": "圣邦股份",
+      "aliases": [
+        "圣邦股份"
+      ]
+    },
+    {
+      "id": "stock:SZ002837",
+      "name": "英维克",
+      "aliases": [
+        "英维克"
+      ]
+    },
+    {
+      "id": "stock:SZ300274",
+      "name": "阳光电源",
+      "aliases": [
+        "阳光电源"
+      ]
+    },
+    {
+      "id": "stock:SZ300750",
+      "name": "宁德时代",
+      "aliases": [
+        "宁德时代"
+      ]
+    },
+    {
+      "id": "stock:SZ300124",
+      "name": "汇川技术",
+      "aliases": [
+        "汇川技术"
+      ]
+    },
+    {
+      "id": "stock:SH600406",
+      "name": "国电南瑞",
+      "aliases": [
+        "国电南瑞"
+      ]
+    },
+    {
+      "id": "stock:SH601899",
+      "name": "紫金矿业",
+      "aliases": [
+        "紫金矿业"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "topic_id": "topic:optical",
+      "symbol": "stock:SZ300308",
+      "stock_name": "中际旭创",
+      "relation": "direct_business",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "高速光模块",
+      "commercial_stage": "产品",
+      "description": "中际旭创：高速光模块",
+      "evidence_url": "https://www.zj-innolight.com/cn/news.html",
+      "evidence_date": null,
+      "review_state": "business_verified",
+      "revenue_share": null
+    },
+    {
+      "topic_id": "topic:optical",
+      "symbol": "stock:SZ300502",
+      "stock_name": "新易盛",
+      "relation": "direct_business",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "光模块及光器件",
+      "commercial_stage": "产品",
+      "description": "新易盛：光模块及光器件",
+      "evidence_url": "https://www.eoptolink.com/cn",
+      "evidence_date": null,
+      "review_state": "business_verified",
+      "revenue_share": null
+    },
+    {
+      "topic_id": "topic:optical",
+      "symbol": "stock:SZ300394",
+      "stock_name": "天孚通信",
+      "relation": "direct_business",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "光器件及光引擎",
+      "commercial_stage": "产品",
+      "description": "天孚通信：光器件及光引擎",
+      "evidence_url": "https://www.tfcsz.com/about.html",
+      "evidence_date": null,
+      "review_state": "business_verified",
+      "revenue_share": null
+    },
+    {
+      "topic_id": "topic:cpo",
+      "symbol": "stock:SZ300394",
+      "stock_name": "天孚通信",
+      "relation": "direct_business",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "CPO 光引擎与光纤阵列组件",
+      "commercial_stage": "方案展示",
+      "description": "天孚通信：CPO 光引擎与光纤阵列组件",
+      "evidence_url": "https://www.tfcsz.com/news/1024.html",
+      "evidence_date": "2026-01-13",
+      "review_state": "business_verified",
+      "revenue_share": null
+    },
+    {
+      "topic_id": "topic:memory",
+      "symbol": "stock:SH688008",
+      "stock_name": "澜起科技",
+      "relation": "industry_transmission",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "内存接口及配套芯片",
+      "commercial_stage": "产品",
+      "description": "澜起科技：内存接口及配套芯片",
+      "evidence_url": "https://www.montage-tech.com/cn/Memory_Interface",
+      "evidence_date": null,
+      "review_state": "business_verified",
+      "revenue_share": null
+    },
+    {
+      "topic_id": "topic:memory",
+      "symbol": "stock:SH603986",
+      "stock_name": "兆易创新",
+      "relation": "direct_business",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "NOR Flash、SLC NAND Flash 及利基型 DRAM",
+      "commercial_stage": "产品",
+      "description": "兆易创新：NOR Flash、SLC NAND Flash 及利基型 DRAM",
+      "evidence_url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061348.PDF",
+      "evidence_date": "2026-03-31",
+      "review_state": "business_verified",
+      "revenue_share": null
+    },
+    {
+      "topic_id": "topic:semiconductor",
+      "symbol": "stock:SZ002371",
+      "stock_name": "北方华创",
+      "relation": "direct_business",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "半导体制造设备",
+      "commercial_stage": "产品",
+      "description": "北方华创：半导体制造设备",
+      "evidence_url": "https://static.cninfo.com.cn/finalpage/2025-08-29/1224615664.PDF",
+      "evidence_date": "2025-08-29",
+      "review_state": "business_verified",
+      "revenue_share": null
+    },
+    {
+      "topic_id": "topic:packaging",
+      "symbol": "stock:SH600584",
+      "stock_name": "长电科技",
+      "relation": "direct_business",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "晶圆级、2.5D/3D 及系统级封装",
+      "commercial_stage": "产品",
+      "description": "长电科技：晶圆级、2.5D/3D 及系统级封装",
+      "evidence_url": "https://roadshow.sseinfo.com/activityDetails/34271",
+      "evidence_date": null,
+      "review_state": "business_verified",
+      "revenue_share": null
+    },
+    {
+      "topic_id": "topic:analog",
+      "symbol": "stock:SZ300661",
+      "stock_name": "圣邦股份",
+      "relation": "direct_business",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "模拟信号链与电源管理芯片",
+      "commercial_stage": "产品",
+      "description": "圣邦股份：模拟信号链与电源管理芯片",
+      "evidence_url": "https://www.sg-micro.com/",
+      "evidence_date": null,
+      "review_state": "business_verified",
+      "revenue_share": null
+    },
+    {
+      "topic_id": "topic:liquid",
+      "symbol": "stock:SZ002837",
+      "stock_name": "英维克",
+      "relation": "direct_business",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "服务器液冷冷板",
+      "commercial_stage": "产品",
+      "description": "英维克：服务器液冷冷板",
+      "evidence_url": "https://www.envicool.com/productinfo84.html",
+      "evidence_date": null,
+      "review_state": "business_verified",
+      "revenue_share": null
+    },
+    {
+      "topic_id": "topic:solar",
+      "symbol": "stock:SZ300274",
+      "stock_name": "阳光电源",
+      "relation": "direct_business",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "光伏逆变器",
+      "commercial_stage": "产品",
+      "description": "阳光电源：光伏逆变器",
+      "evidence_url": "https://cn.sungrowpower.com/product/4/6.html",
+      "evidence_date": null,
+      "review_state": "business_verified",
+      "revenue_share": null
+    },
+    {
+      "topic_id": "topic:battery",
+      "symbol": "stock:SZ300274",
+      "stock_name": "阳光电源",
+      "relation": "direct_business",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "储能系统",
+      "commercial_stage": "产品",
+      "description": "阳光电源：储能系统",
+      "evidence_url": "https://cn.sungrowpower.com/storagesystem/product.html",
+      "evidence_date": null,
+      "review_state": "business_verified",
+      "revenue_share": null
+    },
+    {
+      "topic_id": "topic:battery",
+      "symbol": "stock:SZ300750",
+      "stock_name": "宁德时代",
+      "relation": "direct_business",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "储能电芯及储能系统",
+      "commercial_stage": "产品",
+      "description": "宁德时代：储能电芯及储能系统",
+      "evidence_url": "https://www.catl.com/ess/",
+      "evidence_date": null,
+      "review_state": "business_verified",
+      "revenue_share": null
+    },
+    {
+      "topic_id": "topic:robotics",
+      "symbol": "stock:SZ300124",
+      "stock_name": "汇川技术",
+      "relation": "direct_business",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "SCARA 与六关节工业机器人",
+      "commercial_stage": "产品",
+      "description": "汇川技术：SCARA 与六关节工业机器人",
+      "evidence_url": "https://www.inovance.com/hc/product?typeId=3",
+      "evidence_date": null,
+      "review_state": "business_verified",
+      "revenue_share": null
+    },
+    {
+      "topic_id": "topic:power",
+      "symbol": "stock:SH600406",
+      "stock_name": "国电南瑞",
+      "relation": "direct_business",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "电网自动化及控制设备",
+      "commercial_stage": "产品",
+      "description": "国电南瑞：电网自动化及控制设备",
+      "evidence_url": "https://www.naritech.cn/about-21.html",
+      "evidence_date": null,
+      "review_state": "business_verified",
+      "revenue_share": null
+    },
+    {
+      "topic_id": "topic:metals",
+      "symbol": "stock:SH601899",
+      "stock_name": "紫金矿业",
+      "relation": "direct_business",
+      "direction": "unknown",
+      "source": "official_product",
+      "product": "铜、金及锌矿产开发",
+      "commercial_stage": "产品",
+      "description": "紫金矿业：铜、金及锌矿产开发",
+      "evidence_url": "https://www.zjky.cn/",
+      "evidence_date": null,
+      "review_state": "business_verified",
+      "revenue_share": null
+    }
+  ]
+}

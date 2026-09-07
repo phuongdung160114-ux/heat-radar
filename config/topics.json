@@ -1,0 +1,391 @@
+[
+  {
+    "id": "topic:semiconductor",
+    "name": "半导体",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "半导体",
+      "semiconductor",
+      "芯片"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:analog",
+    "name": "模拟芯片",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "模拟芯片",
+      "模拟IC",
+      "analog chip",
+      "analog semiconductor"
+    ],
+    "parent": "topic:semiconductor",
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:memory",
+    "name": "存储芯片",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "存储芯片",
+      "HBM",
+      "DRAM",
+      "NAND"
+    ],
+    "parent": "topic:semiconductor",
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:packaging",
+    "name": "先进封装",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "先进封装",
+      "CoWoS",
+      "混合键合",
+      "hybrid bonding"
+    ],
+    "parent": "topic:semiconductor",
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:optical",
+    "name": "光通信",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "光通信",
+      "光模块",
+      "optical interconnect",
+      "photonics"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:cpo",
+    "name": "CPO/共封装光学",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "CPO",
+      "共封装光学",
+      "co-packaged optics"
+    ],
+    "parent": "topic:optical",
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:pmfiber",
+    "name": "保偏光纤",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "保偏光纤",
+      "保偏光纖",
+      "polarization maintaining fiber",
+      "PM fiber"
+    ],
+    "parent": "topic:optical",
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:ocs",
+    "name": "光电路交换",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "光电路交换",
+      "optical circuit switch",
+      "OCS"
+    ],
+    "parent": "topic:optical",
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": [
+      "光",
+      "optical",
+      "fiber",
+      "photon"
+    ]
+  },
+  {
+    "id": "topic:liquid",
+    "name": "液冷",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "液冷",
+      "liquid cooling",
+      "冷板"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:robotics",
+    "name": "机器人",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "机器人",
+      "具身智能",
+      "robotics",
+      "humanoid",
+      "embodied AI"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:energy",
+    "name": "能源",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "能源",
+      "石油",
+      "原油",
+      "oil",
+      "energy"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:solar",
+    "name": "光伏",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "光伏",
+      "solar",
+      "photovoltaic"
+    ],
+    "parent": "topic:energy",
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:battery",
+    "name": "电池储能",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "储能",
+      "锂电",
+      "动力电池",
+      "battery"
+    ],
+    "parent": "topic:energy",
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:power",
+    "name": "电网电力",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "电网",
+      "变压器",
+      "电力设备",
+      "power grid"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:health",
+    "name": "医药医疗",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "医药",
+      "医疗",
+      "创新药",
+      "biotech",
+      "healthcare"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:bank",
+    "name": "银行金融",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "银行",
+      "保险",
+      "证券行业",
+      "banking"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:consumer",
+    "name": "消费",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "消费",
+      "白酒",
+      "食品饮料",
+      "consumer"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:metals",
+    "name": "金属矿业",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "铜价",
+      "铝价",
+      "黄金",
+      "矿业",
+      "copper",
+      "gold"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:defense",
+    "name": "国防航空",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "国防",
+      "军工",
+      "航空航天",
+      "aerospace"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:agriculture",
+    "name": "农业",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "农业",
+      "种业",
+      "种植",
+      "agriculture"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:property",
+    "name": "房地产",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "房地产",
+      "地产开发",
+      "real estate"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:computing",
+    "name": "算力服务器",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "算力",
+      "服务器",
+      "data center",
+      "server"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:software",
+    "name": "软件应用",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "软件",
+      "AI应用",
+      "software",
+      "AI application"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  },
+  {
+    "id": "topic:transport",
+    "name": "交通运输",
+    "kind": "topic",
+    "market": "A",
+    "aliases": [
+      "航运",
+      "铁路",
+      "物流",
+      "shipping",
+      "logistics"
+    ],
+    "parent": null,
+    "known_at": "2026-09-06T00:00:00+08:00",
+    "rule": "dictionary-v1",
+    "requires_context": []
+  }
+]
